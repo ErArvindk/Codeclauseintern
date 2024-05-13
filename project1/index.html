@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scrools">
+    <marquee vspace="1%" direction="right"> Add Your  Recipet  Click The Add Button</marquee>
+    </div>
+    <div class="container">
+        <h1>Recipe Book</h1>
+        <button id="addRecipeBtn">Add Recipe</button>
+        <div id="recipeList"></div>
+    </div>
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Recipe</h2>
+            <form id="recipeForm">
+                <input type="text" id="recipeName" placeholder="Recipe Name" required>
+                <input type="text" id="recipeImage" placeholder="Image URL">
+                <textarea id="recipeIngredients" placeholder="Ingredients" required></textarea>
+                <textarea id="recipeInstructions" placeholder="Instructions" required></textarea>
+                <button type="submit" id="saveRecipeBtn">Save Recipe</button>
+            </form>
+        </div>
+    </div>
+    <script src="fun.js"></script>
+</body>
+</html>

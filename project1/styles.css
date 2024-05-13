@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    background-color: #be8484;
+}
+.scrools{
+    font-size:large;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6d4d4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(231, 33, 33, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#addRecipeBtn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #3893f3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form input[type="text"],
+form textarea {
+    width:90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.recipe-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.recipe-item h2 {
+    text-align: center;
+}
+
+.recipe-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipe-item h3 {
+    margin-top: 20px;
+}
+
+.recipe-item p {
+    white-space: pre-wrap;
+}
+
+.recipe-item button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px; }
